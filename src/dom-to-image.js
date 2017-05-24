@@ -134,11 +134,14 @@
 
         function newCanvas(domNode) {
             var canvas = document.createElement('canvas');
-            canvas.width = options.width || util.width(domNode);
-            canvas.height = options.height || util.height(domNode);
+            canvas.width = options.width || util.width(domNode) * 2;
+            canvas.height = options.height || util.height(domNode) * 2;
+            canvas.style.width = util.width(domNode);
+            canvas.style.height = util.height(domNode);
 
             if (options.bgcolor) {
                 var ctx = canvas.getContext('2d');
+                ctx.scale(2,2);
                 ctx.fillStyle = options.bgcolor;
                 ctx.fillRect(0, 0, canvas.width, canvas.height);
             }
