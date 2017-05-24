@@ -1,6 +1,6 @@
 {
     "name": "retina-dom-to-image",
-    "version": "2.5.3",
+    "version": "2.5.4",
     "description": "A fork of the dom-to-image library that outputs an image for higher DPI screens",
     "main": "src/dom-to-image.js",
     "dependencies": {},

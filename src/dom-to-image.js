@@ -128,7 +128,9 @@
             .then(util.delay(100))
             .then(function (image) {
                 var canvas = newCanvas(domNode);
-                canvas.getContext('2d').drawImage(image, 0, 0);
+                var ctx = canvas.getContext('2d');
+                ctx.scale(2,);
+                ctx.drawImage(image, 0, 0);
                 return canvas;
             });
 
