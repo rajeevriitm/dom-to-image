@@ -1,7 +1,7 @@
 {
-    "name": "dom-to-image",
+    "name": "retina-dom-to-image",
     "version": "2.5.2",
-    "description": "Generates an image from a DOM node using HTML5 canvas and SVG",
+    "description": "A fork of the dom-to-image library that outputs an image for higher DPI screens",
     "main": "src/dom-to-image.js",
     "dependencies": {},
     "devDependencies": {
@@ -25,7 +25,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tsayen/dom-to-image.git"
+        "url": "git+https://github.com/eltonjuan/dom-to-image.git"
     },
     "keywords": [
         "dom",

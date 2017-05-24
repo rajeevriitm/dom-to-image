@@ -1,5 +1,11 @@
 # DOM to Image
 
+## Note: FORK
+Note this is a fork of the really good dom-to-image library written by [tsayen](https://github.com/tsayen). I needed a higher-resolution image for a project that I was working on, so I modified the `toPNG` / `draw` method to scale the generated image on higher DPI (retina) screens. 
+
+This fork is by no means perfect, that being said I am more than willing to help fix any issues or accept PR's for others trying to generate higher resolution images using this library. 
+
+
 [![Build Status](https://travis-ci.org/tsayen/dom-to-image.svg?branch=master)](https://travis-ci.org/tsayen/dom-to-image)
 
 ## What is it
