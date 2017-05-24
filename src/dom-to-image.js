@@ -129,7 +129,7 @@
             .then(function (image) {
                 var canvas = newCanvas(domNode);
                 var ctx = canvas.getContext('2d');
-                ctx.scale(2,);
+                ctx.scale(2,2);
                 ctx.drawImage(image, 0, 0);
                 return canvas;
             });
