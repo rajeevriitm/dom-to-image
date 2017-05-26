@@ -143,7 +143,6 @@
 
             if (options.bgcolor) {
                 var ctx = canvas.getContext('2d');
-                ctx.scale(2,2);
                 ctx.fillStyle = options.bgcolor;
                 ctx.fillRect(0, 0, canvas.width, canvas.height);
             }
